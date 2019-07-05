@@ -47,14 +47,18 @@ $user-icon:'<svg aria-hidden="true" focusable="false" data-prefix="far" data-ico
         margin-right: 5%;
     }
 }
-
-@media (max-width:375px){
-    .card{
-        width: 80vw;
-    }
-}
 @media (max-width:414px){
     .card{
         width: 70vw;
     }
   }
+@media (max-width:375px){
+    .card{
+        width: 80vw;
+    }
+}
+@media (max-width:320px){
+    .card{
+        width: 80vw;
+    }
+}

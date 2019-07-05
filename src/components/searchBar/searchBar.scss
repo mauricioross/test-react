@@ -22,17 +22,6 @@ $iconsearh : '<svg aria-hidden="true" focusable="false" data-prefix="fas" data-i
         left: 10.6%;
     }
 }
-@media ( max-width:375px){
-    .searchbar{
-        display: flex;
-        justify-content: center;
-        input{
-            width: 70%;
-            font-size: 16px;
-            left:10%;
-        }
-    }
-}
 @media ( max-width:414px){
     .searchbar{
         input{
@@ -40,6 +29,28 @@ $iconsearh : '<svg aria-hidden="true" focusable="false" data-prefix="fas" data-i
             font-size: 26px;
             left:14%;
             padding-left:51px;
+        }
+    }
+}
+@media ( max-width:375px){
+    .searchbar{
+        display: flex;
+        justify-content: center;
+        input{
+            width: 64%;
+            font-size: 16px;
+            left:9%;
+        }
+    }
+}
+@media ( max-width:320px){
+    .searchbar{
+        display: flex;
+        justify-content: center;
+        input{
+            width: 64%;
+            font-size: 16px;
+            left:10%;
         }
     }
 }
