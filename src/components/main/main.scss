@@ -1,0 +1,82 @@
+/* sass author: Mauricio Ross */
+.main {
+  background-color: #1c2f57;
+  padding-left: 8rem;
+  padding-right: 8rem;
+
+}
+.container{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+}
+.loading {
+  display: block;
+  color: #2c4f85;
+  font-size: 54px;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 375px) {
+  .main {
+    padding: 1rem;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media (max-width:414px){
+  .main{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto ;
+    //background-color: #2196f3;
+    //padding: 10px;
+  }
+}
+@media (max-width:768px){
+  .main{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
